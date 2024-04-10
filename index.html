@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stylessx.css">
+</head>
+
+<body>
+    <!--barra navegadora-->
+    <!--Section Luiggi-->
+    <section class="mapas">
+        <nav class="navbar">
+            <div class="menu-toggle">
+                <div class="menu-toggle-bar"></div>
+                <div class="menu-toggle-bar"></div>
+                <div class="menu-toggle-bar"></div>
+            </div>
+            <div class="logo-container">
+                <img src="images/SecurCar_icon.png" alt="Logo">
+                <span class="logo-container txt">SecurCar</span>
+            </div>
+            <ul>
+                <li><a href="#home" class="borderless-btn">Home</a></li>
+                <li><a href="#alertas" class="borderless-btn">Ubicación</a></li>
+                <li><a href="#prono" class="borderless-btn">Ofrecemos</a></li>
+                <li><a href="#nostros" class="borderless-btn">Nosotros</a></li>
+                <li><a href="#contacto" class="borderless-btn">Contacto</a></li>
+                <li><a href="#ofrecemos" class="borderless-btn">Beneficios</a></li>
+                <li><a href="#" class="round-btn login">Login</a></li>
+                <li><a href="#" class="round-btn signup">Sign Up</a></li>
+            </ul>
+
+            <div class="section-container">
+                <a href="#" class="section"></a>
+            </div>
+        </nav>
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navList = document.querySelector('nav div ul');
+            const logo = document.querySelector('.logo-container');
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                logo.classList.toggle('inactive');
+                navList.classList.toggle('active');
+            });
+        </script>
+        <div id="home" class="Contenedoruno">
+            <div class="columna">
+                <img class="image1" src="images/persona2.png" class="imgBanner" alt="">
+            </div>
+            <div class="columna1">
+                <p id="txtmapas" class="txtmapas">
+                    <span style="font-size: 35pt; font-weight: bold;">SecurCar</span>
+                    <br>
+                    SecurCar es una plataforma con el objetivo <br>
+                    de brindar a las personas la facilidad de<br>
+                    llevar formas de asegurar que su vehículo<br>
+                    estará seguro desde cualquier lugar.
+                </p>
+                <div class="botonesimagenes">
+                    <a href="#" class="btn1banner">Ver más</a>
+                    <a href="#" class="btn2banner">Quiero información</a>
+                </div>
+
+            </div>
+            <div class="columna">
+                <img class="image1" src="images/persona1.png" class="imgBanner2" alt="">
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <!--Section Ruben-->
+    <section>
+        <div class="alertas">
+    </section>
+    <div id="alertas" class="alert-section">
+        <div class="alert-image">
+            <img src="images/mapa1.PNG" alt="Imagen de Alerta" class="alert-img">
+        </div>
+        <div class="alert-content">
+            <h2 class="alert-title">Ubicación</h2>
+            <h3 style="font-size: 15pt;  font-family: Arial;">Registre e inscriba su vehículo, esto con el objetivo de
+                poder saber donde se
+                encuentra su vehículo en todo momento</h3>
+            <h3 style="font-size: 15pt; font-family: Arial;">Además, reciba información si se detecta actividad
+                sospechosa cerca de su vehículo</h3>
+            <h3> </h3>
+            <h3> </h3>
+            <br>
+            <button class="custom-button">MORE</button>
+        </div>
+    </div>
+    <section>
+        </div>
+    </section>
+    <!--Section Fabrizio-->
+    <section id="prono" class="backofr">
+        <div class="Ofrecemos">
+            <br><br><br><br><br><br><br><br>
+            <h1>Ofrecemos</h1>
+            <p>A continuación, lo que ofrecemos con <br>
+                la plataforma.</p>
+            <div class="card-container-wrapper">
+                <div class="card-container">
+                    <div class="card">
+                        <h2 class="cardtext">Avisos de Caducidad</h2>
+                        <img src="images/soat.PNG" alt="Imagen de la Card 1">
+                        <button class="btn">MORE</button>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="cardtext">Dispositivo Rastreador</h2>
+                        <img src="images/chip1.png" alt="Imagen de la Card 2">
+                        <button class="btn">MORE</button>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="cardtext">Ayuda a los principiantes</h2>
+                        <img src="images/principiante.png" alt="Imagen de la Card 3">
+                        <button class="btn">MORE</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Section Balbin-->
+    <section id="Beneficios" class="Beneficios">
+        <div class="ContenerdorBeneficios">
+            <div class="titulito">
+                <h2>Beneficios</h2>
+            </div>
+            <div class="parrafito">
+                <p>
+                    A continuación, se mostrarán algunos beneficios de comenzar a usar las diferentes funciones que
+                    planteamos.
+                </p>
+            </div>
+            <div class="robo">
+                <img class="imagen" src="images/robo.png" alt="">
+                <h3>Alerta a los Robos</h3>
+            </div>
+            <div class="transito">
+                <img class="imagen" src="images/transito.png" alt="">
+                <h3>Consejos Viales</h3>
+            </div>
+            <div class="persona3">
+                <img class="imagen" src="images/person3.png" alt="">
+                <h3>Papeles en Orden</h3>
+            </div>
+        </div>
+    </section>
+    <!--Section Louis-->
+    <section>
+        <section id="nostros" class="nosotros">
+            <h2 style="font-size: 35pt;  font-family: Arial;">Nosotros</h2>
+        </section>
+        </div>
+    </section>
+    <!--Section David-->
+    <div id="contacto" class="contact-section">
+        <h1>Contacto</h1>
+        <p>Dejenos sus datos y nos comunicaremos con usted</p>
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Teléfono">
+        <input type="text" placeholder="Email">
+        <button type="submit">Enviar</button>
+    </div>
+    <section class="background-section">
+        <div class="column">
+            <h2>SecurCar</h2>
+            <p></p>
+        </div>
+        <div class="column">
+            <h2>Links</h2>
+            <ul>
+                <li>Home</li>
+                <li>Ubicación</li>
+                <li>Nosotros</li>
+                <li>Ofrecemos</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Contact Us</h2>
+            <p>+51 987 654 321</p>
+            <p>climaps@gmail.com</p>
+            <p>Lima, Perú</p>
+        </div>
+    </section>
+</body>
+
+</html>
