@@ -1,3 +1,4 @@
+/* David Section */
 html {
   scroll-behavior: smooth;
   font-family: Arial, Helvetica, sans-serif;
@@ -74,21 +75,21 @@ nav ul {
 }
 
 .round-btn.login {
-  background-color: #0084F4;
+  background-color: #01C880;
   color: white;
   align-items: center;
 }
 
 .round-btn.signup {
-  background-color: #66B5F8;
-  color: #0084F4;
+  background-color: #CDFEE4;
+  color: #01C880;
   align-items: center;
 }
 
 .section {
   margin: 0 10px;
   text-decoration: none;
-  color: #007bff;
+  color: #01C880;
 }
 
 .logo-container img {
@@ -97,7 +98,7 @@ nav ul {
 }
 
 .logo-container.txt {
-  color: #0084F4;
+  color: #01C880;
   margin: 10px;
 }
 
@@ -199,12 +200,13 @@ section.Beneficios {
   top: 500px;
 }
 
+/* Alejandro Section */
 .imagen {
   width: 400px;
   height: 430px;
   box-sizing: border-box;
   border-radius: 16px;
-  border: 8px solid #0084F4;
+  border: 8px solid #01C880;
 }
 
 .card-container-wrapper {
@@ -267,7 +269,7 @@ img {
 }
 
 .btn:hover {
-  background: linear-gradient(to bottom, #5c5c5c, #0084F4);
+  background: linear-gradient(to bottom, #5c5c5c, #01C880);
   color: white;
   border: none;
   padding: 5px 10px;
@@ -423,7 +425,7 @@ h2 {
 }
 
 a.btn1banner {
-  background-color: #0084F4;
+  background-color: #01C880;
   color: white;
   padding: 7px 50px;
   border-radius: 25px;
@@ -433,7 +435,7 @@ a.btn1banner {
 }
 
 a.btn2banner {
-  background-color: #0084F4;
+  background-color: #01C880;
   color: white;
   font-size: 12px;
   padding: 7px 50px;
@@ -447,7 +449,7 @@ a.btn2banner {
 a.btn1banner,
 a:hover {
   margin-left: 30px;
-  background-color: #0084F4;
+  background-color: #01C880;
   color: white;
   padding: 7px 50px;
   border-radius: 25px;
@@ -455,6 +457,7 @@ a:hover {
   text-decoration: none;
 }
 
+/*Beth*/
 .titulocol {
   font-size: 50px;
   color: white;
@@ -509,7 +512,7 @@ a:hover {
 }
 
 .logo-text {
-  color: #0084F4;
+  color: #01C880;
   margin: 0 10px;
 }
 
@@ -547,7 +550,7 @@ a:hover {
 .fixed-image {
   width: 20px;
   height: 20px;
-  border: 2px solid #007bff;
+  border: 2px solid #01C880;
   border-radius: 50%;
 }
 
@@ -565,7 +568,7 @@ a:hover {
 }
 
 .custom-button {
-  background-color: #0084F4;
+  background-color: #01C880;
   color: #FFFFFF;
   border: none;
   padding: 10px 20px;
@@ -581,7 +584,7 @@ a:hover {
   height: 65px;
   left: 46.53%;
   right: 21.18%;
-  color: #0084F4;
+  color: #01C880;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -590,6 +593,7 @@ a:hover {
   top: 200px;
 }
 
+/*Niurka*/
 .alert-description {
   height: 284px;
   left: 46.53%;
@@ -625,6 +629,7 @@ a:hover {
   transform: translate(50%);
 }
 
+/*Juan*/
 .parrafito p {
   position: absolute;
   top: 100px;
@@ -668,7 +673,7 @@ a:hover {
   height: 400px;
   box-sizing: border-box;
   border-radius: 16px;
-  border: 8px solid #0084F4;
+  border: 8px solid #01C880;
 }
 
 h3 {
